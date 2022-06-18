@@ -1,0 +1,66 @@
+body {
+    background-color: #1E1E1C;
+    margin: 0;
+    height: 98.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+}
+
+.containerGeral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+    height: 92vh;
+    border: solid;
+    border-radius: 18px;
+    border-color: #fff;
+}
+
+.containerTexto {
+    background-size: 1000px, 300px;
+    width: 95vw;
+    height: 67vh;
+    text-align: center;
+    color:#fff;
+    font-size: 5vw;
+}
+
+p {
+    margin-top: 25vh;
+}
+
+.containerButtons {
+    display: flex;
+    border-top: solid;
+    border-color: #fff;
+    width: 95vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#volume {
+    cursor: pointer;
+    text-decoration: none;
+    width: 21vw;
+    border: solid;
+    border-radius: 45px;
+    color: #fff;
+    font-size: 2vw;
+    padding: 4vh;
+    text-align: center;
+    box-shadow: 0 8px 0 #fff;
+}
+
+#volume:active {
+    position:relative;
+    top:8px;
+    box-shadow:none;
+}
