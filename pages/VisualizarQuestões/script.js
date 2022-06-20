@@ -11,3 +11,13 @@ input.addEventListener("change", function(){
     div.innerHTML = nome;
     document.getElementById("setinha").style.transform = 'rotate(270deg)';
 });
+
+function aparecerModal(modalName) {
+    let modal = document.getElementById(modalName);
+
+    if (typeof modal == 'undefined' || modal === null)
+        return;
+
+        modal.style.display = 'Block';
+        setTimeout(() => { document.addEventListener('click', handleClickOutside, false) }, 200);
+}

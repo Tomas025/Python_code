@@ -30,11 +30,17 @@
             <div class="containerArquivo">
                 <div class="botaoArquivo">Nenhum<br>arquivo<br>selecionado</div>
                 <input type="file" id="inputArquivo">
-                <img id="setinha" src="../../src/Images/Triangulo.png" alt="Setinha">
+                <img id="setinha" src="../../src/Images/Triangulo.png" alt="Setinha" onclick="aparecerModal('modal')">
             </div>
 
             <img id="papyrus" src="../../src/Images/Papyrus.png" alt="Papyrus">
         </div>
+    </div>
+
+    <div id="modal">
+        <h1>Atenção!</h1>
+        <p>O arquivo<br>selecionado está<br>fora do padrão!</p>
+        <p>Envie novamente um<br>arquivo válido.</p>
     </div>
 </body>
 </html>

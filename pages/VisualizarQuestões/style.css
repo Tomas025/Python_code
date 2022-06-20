@@ -101,6 +101,7 @@ body {
 #setinha {
     height: 4vh;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 #inputArquivo { display: none; }
@@ -108,4 +109,21 @@ body {
 #papyrus {
     height: 62vh;
     margin-bottom: 3vh;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #FF3434;
+    border-radius: 25px;
+    width: 35vw;
+    height: 35vh;
+    z-index: 2;
+    text-align: center;
+}
+
+#modal p {
+    font-size: 1.7vw;
 }
